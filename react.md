@@ -9,3 +9,8 @@
 <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js" crossorigin></script> 
 - React-dom : library 또는 package. 모든 react element들을 HTML body에 두는 역할.
 <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js" crossorigin></script>
+
+### Vanilla JS vs React JS
+
+- 바닐라 JS : HTML -> JS 순서
+- 리액트 JS : JS -> HTML 순서
