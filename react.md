@@ -6,11 +6,16 @@
 
 - react를 import하면 react object에 접근 가능
 - React JS : 어플리케이션이 인터랙티브하도록 만들어주는 라이브러리. 엔진과 같은 역할.
-<script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js" crossorigin></script> 
 - React-dom : library 또는 package. 모든 react element들을 HTML body에 두는 역할.
-<script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js" crossorigin></script>
 
 ### Vanilla JS vs React JS
 
 - 바닐라 JS : HTML -> JS 순서
 - 리액트 JS : JS -> HTML 순서
+
+## JSX
+
+- JS를 확장한 문법
+- HTML과 흡사한 문법으로 React 요소를 만들 수 있게 해줌
+- 하지만 브라우저는 JSX 문법을 이해하지 못함
+- Babel을 사용하면 JSX문법을 브라우저가 이해할 수 있는 형태로 변환해줌
