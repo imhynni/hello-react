@@ -21,3 +21,11 @@
 - Babel을 사용하면 JSX문법을 브라우저가 이해할 수 있는 형태로 변환해줌
 - 컴포넌트를 다른 컴포넌트 안에 넣기 위해서는 컴포넌트들을 함수로 만들어주어야 한다. (() => () : arrow function)
 - 주의할 점 : 내가 만든 컴포넌트는 반드시 대문자로 시작해야 한다. 렌더링할 때 html 태그로 혼동하지 않도록!
+
+## State
+
+- state : 데이터가 저장되는 곳
+- React.userState()는 [data, modifier]을 반환한다. 두번째 요소는 첫번째 요소인 data를 변경해주는 function이다.
+- 배열 값을 가져올 때는 const [counter, setCounter] = React.userStater() 형태로 사용.(function 이름은 보통 set\_\_\_ 이다.)
+- modifier에 의해 state, 즉 어플리케이션의 data가 변경되면 새로운 state 값을 가지고 컴포넌트 전체가 재생성되고 리렌더링된다.
+- React.js는 똑똑해서, 실제로 바뀌는 부분만 바뀌게 된다. (불필요한 리렌더링은 하지 않는다)
