@@ -29,3 +29,4 @@
 - 배열 값을 가져올 때는 const [counter, setCounter] = React.userStater() 형태로 사용.(function 이름은 보통 set\_\_\_ 이다.)
 - modifier에 의해 state, 즉 어플리케이션의 data가 변경되면 새로운 state 값을 가지고 컴포넌트 전체가 재생성되고 리렌더링된다.
 - React.js는 똑똑해서, 실제로 바뀌는 부분만 바뀌게 된다. (불필요한 리렌더링은 하지 않는다)
+- set 함수에서 현재 state를 바탕으로 다음 state를 계산하고 싶다면, 함수를 전달해주자.(예기치 못한 곳에서 값이 업데이트되어 혼동되는 것을 방지)
