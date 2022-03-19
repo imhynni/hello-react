@@ -1,2 +1,2 @@
 # hello-react
-React 기초 공부용
+ReactJS로 영화 웹 서비스 만들기
